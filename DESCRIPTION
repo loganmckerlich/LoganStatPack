@@ -1,0 +1,25 @@
+Package: LoganStatPack
+Title: Statistical Functions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Logan", "McKerlich", , "Logan.McKerlich@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package includes a couple stats methods. It has a linear regression, a T test, and k nearest neighbors.
+License: use_gpl3_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Imports: 
+    magrittr,
+    class,
+    dplyr,
+    stats
+Config/testthat/edition: 3
